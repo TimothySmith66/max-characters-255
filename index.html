@@ -9,6 +9,7 @@
 
             var inputValue = document.getElementById("comments").value.length
             //find the characters left by subtracting 255 - length or characterRemains = 254 - inputValue; as alternative.
+            characterRemains = 254 - inputValue;
 
             //condition if we go over 255
             if (characterRemains == 0) {
