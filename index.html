@@ -8,10 +8,10 @@
             //get the length of the comments.
 
             var inputValue = document.getElementById("comments").value.length
-            //find the characters left by subtracting 255 - length
-            characterRemains = 254 - inputValue;
-            s
+            //find the characters left by subtracting 255 - length or characterRemains = 254 - inputValue; as alternative.
+            characterRemains = 255 - inputValue.length
             //condition if we go over 255
+
             //disable the field or just make the value equal to the first 255 characters.
         }
     </script>
