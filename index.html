@@ -5,7 +5,14 @@
 
         document.addEventListener('keydown', showComment);
         function showComment() {
+            //get the length of the comments.
 
+            var inputValue = document.getElementById("comments").value.length
+
+            console.log(inputValue);
+            //find the characters left by subtracting 255 - length
+            //condition if we go over 255
+            //disable the field or just make the value equal to the first 255 characters.
         }
     </script>
 
